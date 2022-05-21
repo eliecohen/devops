@@ -1,0 +1,42 @@
+#https://www.mkdocs.org/getting-started/
+#pip install mkdocs
+#pip install mkdocs-material
+#mkdocs serve
+# `mkdocs new [dir-name]` - Create a new project.
+# `mkdocs serve` - Start the live-reloading docs server.
+# `mkdocs build` - Build the documentation site.
+# `mkdocs -h` - Print help message and exit.
+
+site_name: DevOps
+site_description: DevOps
+site_url: http://molgene.com
+theme:
+  language: en
+  palette:
+    scheme: default
+  name: material
+  features:
+    - navigation.instant
+    #- navigation.tabs
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+  - abbr
+  - toc:
+      permalink: true
+      toc_depth: 2
+
+plugins:
+  - search:
+      prebuild_index: python
+
+nav:
+  - 'home': index.md
+  - 'It’s all about Simplicity': simplicity.md
+  - 'It’s all about Processes': processes.md 
