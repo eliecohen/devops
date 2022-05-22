@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://molgene.com/operations/</loc>
+         <lastmod>2022-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://molgene.com/processes/</loc>
          <lastmod>2022-05-22</lastmod>
          <changefreq>daily</changefreq>
