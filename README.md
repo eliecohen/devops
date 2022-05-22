@@ -4,3 +4,7 @@ mkdocs
   new        Create a new MkDocs project
   serve      Run the builtin development server
 
+
+mkdocs gh-deploy
+https://eliecohen.github.io/devops
+
